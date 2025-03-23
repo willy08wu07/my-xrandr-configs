@@ -6,4 +6,4 @@ kquitapp5 plasmashell
 while qdbus org.kde.plasmashell >/dev/null 2>&1; do
     sleep 0.5
 done
-kstart5 plasmashell
+kstart5 plasmashell &
